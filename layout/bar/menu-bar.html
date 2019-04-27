@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/manifest.js"></script>
+    <script src="/@meod-cli/core.js"></script>
+    <script src="/@meod-cli/support.js"></script>
+    <script src="/@meod-cli/md-interpreter.js"></script>
+    <script src="/values/color.js"></script>
+    <script src="/values/strings.js"></script>
+    <script src="/values/dimens.js"></script>
+    <script src="/values/icons.js"></script>
+    <script src="/values/support-css.js"></script>
+    <script src="/layout/bar/tab.js"></script>
+    <script src="/layout/toolbars/toolbar.js"></script>
+    <script src="/values/fonts.js"></script>
+    <script src="/@meod-cli/gia.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.slim.min.js" integrity="sha256-ZaXnYkHGqIhqTbJ6MB4l9Frs/r7U4jlx7ir8PJYBqbI="crossorigin="anonymous"></script>
+    <title>back sigle toolbar</title>
+    <title> MENU BAR</title>
+<style>
+    .meod-lateral{
+        display: block;
+        position: fixed;
+        left: 0;
+        background: red;
+        z-index: 1000;
+        transition: width 4s;
+    }
+/*body {
+    width: 100%;
+    height: 100%;
+    background: blanchedalmond;
+}*/
+meod-toolbar:hover+.meod-lateral{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.123)
+}
+.main-lateral{
+    background: blanchedalmond;
+    width: 30%;
+    height: 100vh;
+    overflow-y:scroll;
+    overflow-x: hidden; 
+}
+@media only screen and (max-width: 425px){
+    .main-lateral{
+        background: rgb(230, 140, 6);
+        width: 250px;
+        height: 100vh;
+    }
+}
+
+/*MEOD TAB ASIDE MAIN */
+
+</style>
+</head>
+<body >
+    <meod-toolbar id="ts"></meod-toolbar>
+
+    <!-- comienza el menu lateral -->
+        <div class="meod-lateral" id="ts2">
+        <div class="main-lateral">
+            <!-- aqui deve ir el ir el contenido -->
+            <!-- MEOD TAB ASIDE MAIN -->
+        <meod-aside-main md-content="<h1 id='test'>gjg</h1>" id="main-aside" md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+
+        </meod-aside-main>
+        
+        <div class="divisor-main">
+                <img src="/mipmap/add-add.png" alt="">
+                    <div class="conten-divisor-main">
+                        <div class="content">
+                            <h1>aeasdcgjkds</h1>
+                        </div>
+                    </div>
+                    <meod-switch></meod-switch>
+            </div>
+
+            <!--END MEOD TAB ASIDE MAIN -->
+            
+            <!-- MEOD ASIDE TAB STATUS  -->
+
+            <!--MEOD ASIDE CONFIG  -->
+
+            <!--END MEOD ASIDE CONFIG  -->
+
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+
+        </div>
+        </div>
+<!-- fin del menu lateral -->
+
+
+
+        <div class="meod-tabs" style="top:0;margin-top:80px;">
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> 
+            </div>
+        <div class="meod-tabs" style="bottom:0;margin-top:80px;">
+        <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab>
+                <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> <meod-tab md-cr-img="(>https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)" md-id="asdas"></meod-tab> 
+    </div>
+    <t-t></t-t>   
+</body>
+</html>
