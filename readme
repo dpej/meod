@@ -1,0 +1,7 @@
+Meod esta en desarrolo pero una cosa es clara que lo que tiene que hacer lo pero bien y tabuien tiene soporte para 
+navegares viejos en la parte de javascript y tambien css
+Te recomendamos que trabajes con typescript,pero tambien puedes trabajar con javascript
+y si creas un compononte con typescrip y quieres tranpilarlo a es6 esta bien pero si lo haces a es5
+no te funcionara utiliza babel en su lugar
+Meod esta contento con scss realemente te recomendamos que utilizes scss para trabajar con estilos ya que hace ekl trabajo sucio de compatibilidad por tiene
+ayuda a desarrolo de meod een git hub
